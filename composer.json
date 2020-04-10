@@ -1,0 +1,22 @@
+{
+    "name": "nas/module-taxgen",
+    "description": "generate tax percent for specific product",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "tsdi.23a@gmail.com",
+            "name": "Taoufiq Ait Ali"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nas\\Taxgen\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+
+<div class="entry-edit form-inline">
+    <form id="tax_generate_form"  method="post" action="<?php echo $block->getActionSaveUrl() ?>">
+
+
+        <fieldset class="fieldset admin__fieldset " id="main_fieldset">
+            <legend class="admin__legend legend">
+                <span>Tax generator</span>
+            </legend><br />
+
+            <input type="hidden" name="form_key" value="<?php echo $block->getFormKey() ?>" />
+            <div class="messages">
+            </div>
+
+
+            <div class="admin__field field  no-label"  >
+                <div class="admin__field-control control">
+                    <div  class="control-value admin__field-value">Use this form to generate tax
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="admin__field field  "   >
+                <label class="label admin__field-label" for="sku"  ><span>Product Sku#</span></label>
+                <div class="admin__field-control control">
+                    <input id="sku" name="sku" placeholder="Product Sku#"   style="width:32em;"  type="text" class=" input-text admin__control-text"/>
+                </div>
+            </div>
+            <div class="admin__field field  "   >
+                <label class="label admin__field-label" for="percent"  ><span>Percentage of Tax</span></label>
+                <div class="admin__field-control control">
+                    <input id="percent" name="percent" placeholder="Percentage of Tax"   style="width:32em;"    type="number" class=" input-text admin__control-text"/>
+                </div>
+            </div>
+            <div class="admin__field field  "   >
+
+                <div class="admin__field-control control">
+                    <label class="label admin__field-label" for="percent"  ><span>&nbsp;</span></label>
+                    <button  id="taxgensubmit" name="taxgensubmit"  type="submit" class=" input-submit admin__control-submit">
+                        Generate
+                    </button>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </fieldset>
+
+    </form>
+</div>
