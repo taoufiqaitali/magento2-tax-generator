@@ -1,4 +1,4 @@
-# Module Tax generator
+# Magento 2 Module Tax generator
 
     ``taoufiqaitali/module-taxgen``
 
