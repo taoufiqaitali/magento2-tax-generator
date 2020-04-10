@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
 	<menu>
-		<add id="Nas::top_level" module="Nas_Taxgen" resource="Magento_Backend::content" sortOrder="9999" title="Nas"/>
-		<add action="nas_taxgen/tax/index" id="Nas_Taxgen::nas_taxgen_tax" module="Nas_Taxgen" parent="Nas::top_level" resource="Magento_Backend::content" sortOrder="9999" title="Tax Generator"/>
+		<add id="Taoufiqaitali::top_level" module="Taoufiqaitali_Taxgen" resource="Magento_Backend::content" sortOrder="9999" title="Taoufiqaitali"/>
+		<add action="taoufiqaitali_taxgen/tax/index" id="Taoufiqaitali_Taxgen::taoufiqaitali_taxgen_tax" module="Taoufiqaitali_Taxgen" parent="Taoufiqaitali::top_level" resource="Magento_Backend::content" sortOrder="9999" title="Tax Generator"/>
 
 	</menu>
 </config>

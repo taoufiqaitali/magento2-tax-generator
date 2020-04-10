@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<referenceContainer name="content">
-			<block class="Nas\Taxgen\Block\Adminhtml\Tax\Form" name="taxgenerator"  as="form" template="Nas_Taxgen::tax/index.phtml" />
+			<block class="Taoufiqaitali\Taxgen\Block\Adminhtml\Tax\Form" name="taxgenerator"  as="form" template="Taoufiqaitali_Taxgen::tax/index.phtml" />
 		</referenceContainer>
 	</body>
 </page>

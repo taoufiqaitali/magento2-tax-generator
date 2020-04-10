@@ -1,8 +1,8 @@
 <?php
-namespace Nas\Taxgen\Controller\Adminhtml\Tax;
+namespace Taoufiqaitali\Taxgen\Controller\Adminhtml\Tax;
 
 
-use Nas\Taxgen\Helper\Data;
+use Taoufiqaitali\Taxgen\Helper\Data;
 
 class Save extends \Magento\Backend\App\Action
 {
@@ -61,7 +61,7 @@ class Save extends \Magento\Backend\App\Action
 
         //$this->messageManager->addSuccessMessage(__('Please add correct sku and percentage'));
 
-        return $this->resultRedirectFactory->create()->setPath('nas_taxgen/tax/index', ['_current' => true]);
+        return $this->resultRedirectFactory->create()->setPath('taoufiqaitali_taxgen/tax/index', ['_current' => true]);
     }
 }
 ?>

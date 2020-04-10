@@ -1,5 +1,5 @@
 <?php
-namespace Nas\Taxgen\Controller\Adminhtml\Tax;
+namespace Taoufiqaitali\Taxgen\Controller\Adminhtml\Tax;
 
 
 

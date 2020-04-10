@@ -3,7 +3,7 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Nas\Taxgen\Block\Adminhtml\Tax;
+namespace Taoufiqaitali\Taxgen\Block\Adminhtml\Tax;
 
 /**
  * Encryption key change form block
@@ -34,7 +34,7 @@ class Form extends \Magento\Backend\Block\Template
 
     public function getActionSaveUrl(){
         return $this->getUrl(
-            'nas_taxgen/tax/save'
+            'taoufiqaitali_taxgen/tax/save'
         );
     }
 

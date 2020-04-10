@@ -1,6 +1,6 @@
-# Module Nas Tax generator
+# Module Tax generator
 
-    ``nas/module-taxgen``
+    ``taoufiqaitali/module-taxgen``
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
@@ -14,25 +14,25 @@ generate tax percent for specific product
 
 ## Installation
 
- - Unzip the zip file in `app/code/Nas`
- - Enable the module by running `php bin/magento module:enable Nas_Taxgen`
- - Apply database updates by running `php bin/magento setup:upgrade`\*
+ - Unzip the archive file in `app/code/Taoufiqaitali/Taxgen`
+ - Enable the module by running `php bin/magento module:enable Taoufiqaitali_Taxgen`
+ - Apply database updates by running `php bin/magento setup:upgrade`
  - Flush the cache by running `php bin/magento cache:flush`
 
 
 ## Configuration
 
- - Nas > Tax Generator
+ - Taoufiqaitali > Tax Generator
 
 
 ## Specifications
 
  - Helper
-	- Nas\Taxgen\Helper\Data
+	- Taoufiqaitali\Taxgen\Helper\Data
 
 
 ## Notes
- - Prefix for generated taxe classes is `NAS-TAX-` can be edited in Helper, in future we can add it in configuration page
+ - Prefix for generated taxe classes is `TAOUFIQAITALI-TAX-` can be edited in Helper, in future we can add it in configuration page
  - In this version i'm not checked validation for type of input data
  - after each generation please reindex and clear cache
 ## Author
